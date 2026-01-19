@@ -7,3 +7,8 @@ class Conjunto:
             return (self.__conjunto[0])
         else:
             return None
+
+
+    def test_conjunto_dosElementos_retornaPromedioElementos( self ):
+        conjunto=Conjunto([5,7])
+        self.assertEqual(6,conjunto.promedio())
